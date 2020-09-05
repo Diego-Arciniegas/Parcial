@@ -1,19 +1,20 @@
-﻿<Window x:Class="Parcial_Diego_Arciniegas.Login"
-        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Parcial_Diego_Arciniegas"
-        mc:Ignorable="d"
-        Title="Login" Height="313
-        " Width="800">
+﻿<Page x:Class="Parcial_Diego_Arciniegas.Login"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Parcial_Diego_Arciniegas"
+      mc:Ignorable="d" 
+      d:DesignHeight="313" d:DesignWidth="800"
+      Title="Login" Background="#FF7FC4CB">
+
     <Grid>
         <Label Content="Login" HorizontalAlignment="Center" Height="44" Margin="0,21,0,0" VerticalAlignment="Top" Width="68" FontSize="22" FontWeight="Bold" FontStyle="Italic"/>
-        <TextBox Name="txtUsername" HorizontalAlignment="Center" Height="23" Margin="0,102,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="130"/>
+        <TextBox Name="txtUsername" HorizontalAlignment="Center" Height="23" Margin="0,102,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="130" BorderBrush="Black"/>
         <Label Content="Username" HorizontalAlignment="Center" Height="27" Margin="0,75,0,0" VerticalAlignment="Top" Width="130" FontWeight="Bold"/>
         <Label Content="Password" HorizontalAlignment="Center" Height="24" Margin="0,135,0,0" VerticalAlignment="Top" Width="130" FontWeight="Bold"/>
-        <PasswordBox Name="txtPassword" HorizontalAlignment="Center" Height="22" Margin="0,164,0,0" VerticalAlignment="Top" Width="130"/>
-        <Button Name="btnLogin" Content="Login" HorizontalAlignment="Center" Height="21" Margin="0,218,0,0" VerticalAlignment="Top" Width="94" Click="btnLogin_Click" FontStyle="Italic"/>
+        <PasswordBox Name="txtPassword" HorizontalAlignment="Center" Height="22" Margin="0,164,0,0" VerticalAlignment="Top" Width="130" BorderBrush="Black"/>
+        <Button Name="btnLogin" Content="Login" HorizontalAlignment="Center" Height="21" Margin="0,218,0,0" VerticalAlignment="Top" Width="94" FontStyle="Italic" Click="btnLogin_Click"/>
 
     </Grid>
-</Window>
+</Page>
