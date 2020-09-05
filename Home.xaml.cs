@@ -32,8 +32,8 @@ namespace Parcial_Diego_Arciniegas
             string Tipo = cbxTipo.Text;
             string Cantidad = srCantidad.Value.ToString();
 
-
-            txtResults.Items.Add("-Nombre: " + Nombre + "\n" + "-Cedúla: " + Cedula + "\n" + "-Tipo: " + Tipo + "\n" + "-Precio: " + Precio + "\n" + "-Cantidad: " + Cantidad);
+            DateTime Now = DateTime.Now;
+            txtResults.Items.Add("-Fecha: " + DateTime.Now + "\n" + "-Nombre: " + Nombre + "\n" + "-Cedúla: " + Cedula + "\n" + "-Tipo: " + Tipo + "\n" + "-Precio: " + Precio + "\n" + "-Cantidad: " + Cantidad);
 
 
         }

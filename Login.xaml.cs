@@ -25,11 +25,16 @@ namespace Parcial_Diego_Arciniegas
 
         private void btnLogin_Click(object sender, RoutedEventArgs e)
         {
-            if (txtUsername.Text == "Empleado" && txtPassword.Password == "1234"
-             )
+            if (txtUsername.Text == "Empleadoras" && txtPassword.Password == "1234")
             {
                 MainWindow w = (MainWindow)Window.GetWindow(this);
                 w.frameMain.NavigationService.Navigate(new Home());
+            }
+
+            else if (txtUsername.Text == "Admin" && txtPassword.Password == "4321")
+            {
+                MainWindow w = (MainWindow)Window.GetWindow(this);
+                w.frameMain.NavigationService.Navigate(new Home1());
             }
             else
             {
@@ -37,20 +42,8 @@ namespace Parcial_Diego_Arciniegas
 
             }
 
-            private void btnLogin_Click(object sender, RoutedEventArgs e)
-            {
-                if (txtUsername.Text == "Admin" && txtPassword.Password == "4321"
-                 )
-                {
-                    MainWindow w = (MainWindow)Window.GetWindow(this);
-                    w.frameMain.NavigationService.Navigate(new Home1());
-                }
-                else
-                {
-                    MessageBox.Show("Invalid.");
-
-                }
-            }
 
         }
+
     }
+}

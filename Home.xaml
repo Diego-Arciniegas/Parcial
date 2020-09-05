@@ -31,7 +31,7 @@
             <ComboBoxItem Content="Especiales"/>
         </ComboBox>
         <Button Name="btnLogout" Content="Logout" HorizontalAlignment="Left" Height="32" Margin="634,269,0,0" VerticalAlignment="Top" Width="92" Click="btnLogout_Click" FontWeight="Bold" FontStyle="Italic" FontSize="14" BorderBrush="Black"/>
-        <Label Content="Facturación" HorizontalAlignment="Center" Height="43" VerticalAlignment="Top" Width="144" FontSize="24" FontWeight="Bold" FontStyle="Italic"/>
+        <Label Content="Facturación del empleadas &#xD;&#xA;" HorizontalAlignment="Center" Height="43" VerticalAlignment="Top" Width="315" FontSize="24" FontWeight="Bold" FontStyle="Italic"/>
 
         <Label Name="lblLevel" Content="-Cantidad:0" HorizontalAlignment="Left" Height="31" Margin="56,240,0,0" VerticalAlignment="Top" Width="124" FontSize="14" FontWeight="Bold" FontStyle="Italic"/>
         <Slider Name="srCantidad" HorizontalAlignment="Left" Height="27" Margin="262,243,0,0" VerticalAlignment="Top" Width="133" TabIndex="1" SmallChange="1" Maximum="20" TickPlacement="BottomRight" ValueChanged="srLevel_ValueChanged" IsSnapToTickEnabled="True"/>
